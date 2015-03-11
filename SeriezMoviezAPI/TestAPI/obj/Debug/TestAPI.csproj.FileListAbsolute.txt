@@ -1,0 +1,14 @@
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\TestAPI\obj\Debug\TestAPI.csprojResolveAssemblyReference.cache
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\TestAPI\bin\Debug\TestAPI.dll
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\TestAPI\bin\Debug\TestAPI.pdb
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\TestAPI\bin\Debug\SeriezMoviezAPI.dll
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\TestAPI\bin\Debug\SeriezMoviezAPI.pdb
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\TestAPI\obj\Debug\TestAPI.dll
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\TestAPI\obj\Debug\TestAPI.pdb
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\TestAPI\bin\Debug\TestAPI.dll
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\TestAPI\bin\Debug\TestAPI.pdb
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\TestAPI\bin\Debug\SeriezMoviezAPI.dll
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\TestAPI\bin\Debug\SeriezMoviezAPI.pdb
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\TestAPI\obj\Debug\TestAPI.csprojResolveAssemblyReference.cache
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\TestAPI\obj\Debug\TestAPI.dll
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\TestAPI\obj\Debug\TestAPI.pdb

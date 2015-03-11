@@ -1,0 +1,11 @@
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\SeriezMoviezAPI\bin\Debug\SeriezMoviezAPI.dll
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\SeriezMoviezAPI\bin\Debug\SeriezMoviezAPI.pdb
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezMoviezAPI.dll
+C:\Users\Florent\Documents\Visual Studio 2013\Projects\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezMoviezAPI.pdb
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezMoviezAPI.csprojResolveAssemblyReference.cache
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezMoviezAPI.dll
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\bin\Debug\SeriezMoviezAPI.dll
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\bin\Debug\SeriezMoviezAPI.pdb
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezMoviezAPI.pdb

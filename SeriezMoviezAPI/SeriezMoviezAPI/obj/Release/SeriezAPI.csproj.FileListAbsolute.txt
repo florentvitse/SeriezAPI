@@ -1,0 +1,4 @@
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\bin\Release\SeriezMoviezAPI.dll
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\bin\Release\SeriezMoviezAPI.pdb
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\obj\Release\SeriezMoviezAPI.dll
+C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\obj\Release\SeriezMoviezAPI.pdb
