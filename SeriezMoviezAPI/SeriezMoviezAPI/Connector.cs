@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Linq;
 
 namespace PortableClassLibrarySerie
@@ -36,54 +37,28 @@ namespace PortableClassLibrarySerie
 
         public SearchSerie[] Search(String prmS)
         {
-            List<SearchSerie> valR = null;
-            String name = null, languagef = null;
+            List<SearchSerie> valR = new List<SearchSerie>();
+            String name = null;
 
-            try
+            IEnumerable<XElement> series = XElement.Load(mirrorsPath[0] + "/api/GetSeries.php?seriesname=" + prmS + "&language=" + language).Elements("Series");
+
+            if(series.Any())
             {
-                XElement doc = XElement.Load(mirrorsPath[0] + "/api/GetSeries.php?seriesname=" + prmS + "&language=" + language);
-                if (doc != null)
+                foreach (XElement el in series)
                 {
-                    List<XElement> series = new List<XElement>();
-                    series.AddRange(doc.Elements("Series"));
-
-                    valR = new List<SearchSerie>();
-                    foreach (XElement el in series)
+                    try
                     {
-                        languagef = el.Element("language").Value;
-                        if (String.Equals(languagef, language))
-                        {
-                            try
-                            {
-                                name = el.Element("AliasNames").Value;
-                            }
-                            catch (Exception)
-                            { }
-
-                            if (!String.IsNullOrEmpty(name))
-                            {
-                                name = el.Element("SeriesName").Value + " (" + name + ") - " + language;
-                            }
-                            else
-                            {
-                                name = el.Element("SeriesName").Value + " - " + language;
-                            }
-
-                            valR.Add(new SearchSerie(name, Convert.ToInt32(el.Element("seriesid").Value)));
-                            name = null;
-                        }
+                        name = el.Element("SeriesName").Value + " (" + el.Element("AliasNames").Value + ") - " + el.Element("language").Value;
                     }
+                    catch (NullReferenceException)
+                    {
+                        name = el.Element("SeriesName").Value + " - " + el.Element("language").Value;
+                    }
+
+                    valR.Add(new SearchSerie(name, Convert.ToInt32(el.Element("seriesid").Value)));
                 }
             }
-            catch (Exception) { /* NO INTERNET CONNECTION */ }
-            if (valR.Count != 0)
-            {
-                return valR.ToArray();
-            }
-            else
-            {
-                return null;
-            }
+            return valR.ToArray();
         }
 
         public Serie GetSeriebyID(int prmID)
