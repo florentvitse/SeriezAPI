@@ -6,39 +6,33 @@ namespace PortableClassLibrarySerie
 {
     public class Connector
     {
-        public String apikey { get; set; }
+        private String apikey { get; set; }
         public String language { get; set; }
-        public List<String> mirrorsPath { get; set; }
+        private List<String> mirrorsPath { get; set; }
+
+        private bool connected = false;
 
         public Connector(String prmAPI = null, String prmLan = "en")
         {
             apikey = prmAPI;
             language = prmLan;
+            GetMirrors();
         }
 
-        public int GetMirrors()
+        public void GetMirrors()
         {
-
             mirrorsPath = new List<String>();
             if (!String.IsNullOrEmpty(apikey))
             {
-                try
-                {
-                    XElement doc = XElement.Load("http://thetvdb.com/api/" + apikey + "/mirrors.xml");
-                    List<XElement> mirrors = new List<XElement>();
-                    mirrors.AddRange(doc.Elements("Mirror"));
+                XElement doc = XElement.Load("http://thetvdb.com/api/" + apikey + "/mirrors.xml");
+                IEnumerable<XElement> mirrors = doc.Elements("Mirror");
 
-                    foreach (XElement mirror in mirrors)
-                    {
-                        mirrorsPath.Add(mirror.Element("mirrorpath").Value);
-                    }
-                }
-                catch (Exception)
+                foreach (XElement mirror in mirrors)
                 {
-                    return -1;
+                    mirrorsPath.Add(mirror.Element("mirrorpath").Value);
                 }
+                connected = true;
             }
-            return mirrorsPath.Count;
         }
 
         public SearchSerie[] Search(String prmS)
