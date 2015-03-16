@@ -2,3 +2,8 @@ C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\bin\Deb
 C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\bin\Debug\SeriezMoviezAPI.pdb
 C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezMoviezAPI.dll
 C:\Users\Florent\SkyDrive\SERIES_PROJECT\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezMoviezAPI.pdb
+C:\Users\FLORENT\Documents\Visual Studio 2013\Projects\SeriezAPI\SeriezMoviezAPI\SeriezMoviezAPI\bin\Debug\SeriezMoviezAPI.dll
+C:\Users\FLORENT\Documents\Visual Studio 2013\Projects\SeriezAPI\SeriezMoviezAPI\SeriezMoviezAPI\bin\Debug\SeriezMoviezAPI.pdb
+C:\Users\FLORENT\Documents\Visual Studio 2013\Projects\SeriezAPI\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezAPI.csprojResolveAssemblyReference.cache
+C:\Users\FLORENT\Documents\Visual Studio 2013\Projects\SeriezAPI\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezMoviezAPI.dll
+C:\Users\FLORENT\Documents\Visual Studio 2013\Projects\SeriezAPI\SeriezMoviezAPI\SeriezMoviezAPI\obj\Debug\SeriezMoviezAPI.pdb

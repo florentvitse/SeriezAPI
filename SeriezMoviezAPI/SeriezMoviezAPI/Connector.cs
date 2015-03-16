@@ -24,8 +24,7 @@ namespace PortableClassLibrarySerie
             mirrorsPath = new List<String>();
             if (!String.IsNullOrEmpty(apikey))
             {
-                XElement doc = XElement.Load("http://thetvdb.com/api/" + apikey + "/mirrors.xml");
-                IEnumerable<XElement> mirrors = doc.Elements("Mirror");
+                IEnumerable<XElement> mirrors = XElement.Load("http://thetvdb.com/api/" + apikey + "/mirrors.xml").Elements("Mirror");
 
                 foreach (XElement mirror in mirrors)
                 {
