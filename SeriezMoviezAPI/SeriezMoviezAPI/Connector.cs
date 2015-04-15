@@ -338,4 +338,13 @@ namespace PortableClassLibrarySerie
             actors.AddRange(prmAc);
         }
     }
+    
+    // CODE THAN CAN BE USEFUL - RETURN AN XElement WITH A QUERY
+    //XElement xelement = XElement.Load("..\\..\\Employees.xml");
+    //var addresses = from address in xelement.Elements("Employee")
+            //where (string)address.Element("Address").Element("City") == "Alta"
+            //select address;
+    //Console.WriteLine("Details of Employees living in Alta City");
+    //foreach (XElement xEle in addresses)
+        //Console.WriteLine(xEle);
 }
